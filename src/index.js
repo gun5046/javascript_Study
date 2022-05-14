@@ -1,3 +1,3 @@
-import main from './js/main.js'
+import App from "./App.js"
 
-new main({$target : document.getElementsByClassName('.App')})
+new App(document.querySelector(".App"))
